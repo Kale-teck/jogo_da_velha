@@ -1,0 +1,10 @@
+.game-info {
+   font-size: large;
+   font-weight: bold;
+   color: white;
+}
+
+.game-info li button {
+   border: 0;
+   border-radius: 5px;
+}
