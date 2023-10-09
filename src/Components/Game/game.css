@@ -1,10 +1,38 @@
+.game {
+   display: flex;
+}
+
+
+.game-board {
+   width: 50%;
+}
+
 .game-info {
-   font-size: large;
+   width: 50%;
+   font-size: 23pt;
+   padding-top: 2%;
+   padding-left: 3%;
    font-weight: bold;
-   color: white;
+   color: rgb(228, 227, 227);
 }
 
 .game-info li button {
    border: 0;
    border-radius: 5px;
+   font-size: large;
+}
+   
+
+@media (max-width: 720px) {
+   .game {
+      display: block;
+   }
+
+   .game-board {
+      width: 100%;
+   }
+
+   .game-info {
+      width: 50%;
+   }
 }

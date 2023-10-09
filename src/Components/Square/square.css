@@ -1,9 +1,16 @@
 .square {
    width: 30%;
-   height: 200px;
+   height: 225px;
    font-size: 48pt;
    font-weight: bold;
    border-radius: 3%;
    border-width: 0;
    margin: 5px;
+   background-color: rgb(233, 233, 233);
+}
+
+@media (max-width: 720px) {
+   .square {
+      height: 125px;
+   }
 }
